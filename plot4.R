@@ -19,7 +19,7 @@ windows(width=15, height=16, bg="white")
 par(mfrow=c(2,2))
 
 ## Graph at Top Left
-plot(data$Global_active_power ~ data$DateTime, type="l", xlab="", ylab="Global Active Power (kilowatts)")
+plot(data$Global_active_power ~ data$DateTime, type="l", xlab="", ylab="Global Active Power")
 
 ## Graph at Top Right
 plot(data$Voltage ~ data$DateTime, type="l", xlab="datetime", ylab="Voltage")
